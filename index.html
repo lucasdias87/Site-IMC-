@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+   
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="js/script.js" defer ></script>
+        <title></title>
+        <title>Cálculo IMC</title>
+        <nav class=" center ">
+      
+            <ul>
+              
+                <li>
+                    <a href="#quem">O que é  IMC</a>
+                </li>
+                <li>
+                    <a href="#calculadora">calculadora IMC</a>
+                </li>
+                <li>
+                    <a href="#contatos"></a>
+                </li>
+            </ul>
+            
+        </nav>
+    
+    </head>
+        
+        
+
+    <body>
+        <div class="center" id="quem" >
+        <h1> IMC é a sigla para Índice de Massa Corpórea</h1>
+            <h2>Parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
+            </h2>
+               <p> O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado.<br>
+                Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
+                </p> 
+            <img src="img/diag-car-01.png" alt="IMC" >
+             </div>
+        <div class="center fundo-verde "id="calculadora"> 
+        <form >
+            <h3>Ainda não sabe qual o seu Índice de Massa Corporal (IMC)? </h3>
+            <h3>Calcule agora!</h3>
+            <label for="massa">Peso:</label>
+            <input type="number" id="massa"  placeholder=" Digite o seu peso " name="massa" valeu="0"><br>
+            <label for="altura"  >Altura:</label>
+            <input type="number" id="altura"placeholder=" Digite sua altura 1.80" pattern="[300]" name="altura" valeu="0"><br><br>
+        </form>
+        
+        <label id="resultado">Resultado: </label>
+        <br>
+        <button onclick="calculaIMC()"> calcular IMC </button>
+        <br>
+       
+           
+       
+        
+    </div>
+    <br>
+    <div class="center borda " >
+      <img class="img-border" src="/img/medico2.png" > 
+      <h3>Procure um médico para diagnóstico e indicação de tratamento adequado, de acordo com seu perfil e histórico clínico individual.</h3>
+    </div>
+    <br>
+    <div class="center">
+    <table >
+    <tr class="table-calc-blue">
+        <td>IMC</td>
+        <td>Classificação</td>
+        <td style="text-align: center">Obesidade <small>(grau)</small></td>
+    </tr>
+    
+    <tr id="result_calc_0">
+        <td>Menor que 18,5</td>
+        <td>Abaixo do peso</td>
+        <td style="text-align: center">0</td>
+    </tr>
+    
+    <tr id="result_calc_1">
+        <td>Entre 18,5 e 24,9</td>
+        <td>Peso ideal</td>
+        <td style="text-align: center">0</td>
+    </tr>
+    
+    <tr id="result_calc_2">
+        <td>Entre 25,0 e 29,9</td>
+        <td>Sobrepeso</td>
+        <td style="text-align: center">I</td>
+    </tr>
+    
+    <tr id="result_calc_3">
+        <td>Entre 30,0 e 39,9</td>
+        <td>Obesidade</td>
+        <td style="text-align: center">II</td>
+    </tr>
+
+    <tr id="result_calc_4">
+        <td>Maior que 40,0</td>
+        <td>Obesidade Grave</td>
+        <td style="text-align: center">III</td>
+    </tr>
+
+
+</table>
+</div>
+
+    </body> 
+    <br>
+   <footer class="center" >
+    <a href="https://lucasdias.netlify.app" >&copy;LucasDias</a></footer>
+        
+    
+</html>
+  

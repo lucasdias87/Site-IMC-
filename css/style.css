@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+@media screen and (max-width: 750px)  {
+    table {
+        border: #ffffff;
+        width: 100%;
+    }
+    nav{
+        
+        width: 100%;
+    }
+    img{
+      width: 100%;
+      height: auto;
+       max-width: 100%;
+      -moz-transition: all 0.5s;
+     -webkit-transition: all 0.5s;
+     transition: all 0.5s;
+
+  }
+  img:hover{
+    -moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+}
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+   margin: 0,0,0,0;
+     
+}
+nav{
+   
+   
+   
+    background-color: #e2e1e1;
+    font-size: large;
+   
+    border: solid #0c3080;
+    font-family: 'ubuntu', sans-serif;
+    background-repeat: no-repeat;
+    letter-spacing: 10px;
+   
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position:  sticky; /* Este é o sufixo correto */
+    top: 0;
+    
+    
+    
+    
+    
+ }
+ li{
+    display: inline-block;
+    
+     list-style: none;
+     gap: 10rem;
+    
+     
+    
+  }
+  a{
+    text-decoration: none;
+    color: #0c3080;
+    font-size: 1.125rem;
+    font-family: ADLIBN,Lato,Roboto;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+   
+  }
+  h1{
+    font-family: ADLIBN,Lato,Roboto;
+    font-weight: bold;
+   
+   
+    font-size: 1.5rem;
+    color: #047480;
+    text-align: center;
+    
+  }
+    h2,p {
+        font-family: ADLIBN,Lato,Roboto;
+        font-weight: bold;
+     
+     
+        font-size: 1.5rem;
+        color: #7dc1be;
+        text-align: center;
+        
+    }
+   
+    img{
+        width: 100%;
+        height: auto;
+       
+
+    }
+   
+
+
+        
+
+    
+    .img-border{
+       width: 60px;
+       align-items: left;
+        margin-top: 10px;
+    }
+ .center {
+   
+    text-align:center ;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  table {
+    border: #ffffff;
+    width: 100%;
+  
+}
+  .table-calc-blue{
+    background-color: #0c3080;
+    color: #fff;
+    font-size: 1.125rem;
+    font-family: 'ubuntu', sans-serif;
+    border: solid #20232a;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+   
+  }
+  #result_calc_0{
+    background-color: #6f0eee;
+    color: #fff;
+    font-size: 1.125rem;
+    font-family: 'ubuntu', sans-serif;
+    border: solid #20232a;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+   
+  }
+  #result_calc_1{
+    background-color: #6f0eee;
+    color: #fff;
+    font-size: 1.125rem;
+    font-family: 'ubuntu', sans-serif;
+    border: solid #20232a;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+   
+  }
+  #result_calc_2{
+    background-color: #6f0eee;
+    color: #fff;
+    font-size: 1.125rem;
+    font-family: 'ubuntu', sans-serif;
+    border: solid #20232a;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+   
+  }
+    #result_calc_3{
+        background-color: #6f0eee;
+        color: #fff;
+        font-size: 1.125rem;
+        font-family: 'ubuntu', sans-serif;
+        border: solid #20232a;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        width: 100%;
+        height: 100%;
+     
+    }
+    #result_calc_4{
+        background-color: #6f0eee;
+        color: #fff;
+        font-size: 1.125rem;
+        font-family: 'ubuntu', sans-serif;
+        border: solid #20232a;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        width: 100%;
+        height: 100%;
+     
+    }
+    label,input,h3 {
+        font-size: 1.125rem;
+        font-family: 'ubuntu', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #0c3080;
+       width: auto;
+    }
+    button{
+        font-size: 1.125rem;
+        font-family: 'ubuntu', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+       
+        color: #0c3080;
+        background-color: #ffffff;
+        border: solid #e67042;
+      
+    }
+    .fundo-verde{
+        background-color:#7dc1be;
+        border: solid white;
+        border-radius: 10px;
+    }
+    .borda{
+        border: solid #e67042;
+        border-radius: 10px;
+    }
