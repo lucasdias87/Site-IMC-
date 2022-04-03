@@ -1,7 +1,6 @@
 # IMC  ÍNDICE DE MASSA CORPORAL
 [![GitHub license](https://img.shields.io/github/license/lucasdias87/Site-IMC-?style=for-the-badge)](https://github.com/lucasdias87/Site-IMC-/blob/main/LICENSE)
 
-
 - Site criado em HTML, CSS e Javascript
 - IMC é a sigla para Índice de Massa Corpórea
 Parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
