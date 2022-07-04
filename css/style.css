@@ -41,7 +41,7 @@ nav{
     background-color: #e2e1e1;
     font-size: large;
    
-    border: solid #0c3080;
+    border: solid #e2e1e1;
     font-family: 'ubuntu', sans-serif;
     background-repeat: no-repeat;
     letter-spacing: 10px;
@@ -55,7 +55,33 @@ nav{
     
     
  }
- li{
+ nav a::after{
+  content: '';
+  width: 0%;
+  height: 1px;
+ 
+  position: absolute;
+  bottom:  0;
+  left: 0;
+ transition: 0.5s;
+}
+
+nav:hover::after{
+  width: 100%;
+  background-color: #047480;
+}
+nav a:hover{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  color: #047480;
+  text-decoration: none;
+  
+ 
+
+}
+
+
+li{
     display: inline-block;
     
      list-style: none;
@@ -95,9 +121,17 @@ nav{
         
     }
    
-    img{
-        width: 100%;
-        height: auto;
+    .img2{
+        width: 10rem;
+        float : left;
+        margin-left: auto;
+        float: inline-block;
+        
+      
+
+       
+
+        
        
 
     }
@@ -120,7 +154,9 @@ nav{
     
   }
   table {
+    background-color: #047480;
     border: #ffffff;
+    
     width: 100%;
   
 }
@@ -137,6 +173,7 @@ nav{
     height: 100%;
    
   }
+
   #result_calc_0{
     background-color: #6f0eee;
     color: #fff;
@@ -202,6 +239,7 @@ nav{
         height: 100%;
      
     }
+    
     label,input,h3 {
         font-size: 1.125rem;
         font-family: 'ubuntu', sans-serif;
@@ -220,12 +258,22 @@ nav{
         color: #0c3080;
         background-color: #ffffff;
         border: solid #e67042;
+        cursor: pointer;
       
     }
+    button:hover{
+        background-color: #e67042;
+        color: #ffffff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    
+    
     .fundo-verde{
         background-color:#7dc1be;
         border: solid white;
         border-radius: 10px;
+        
     }
     .borda{
         border: solid #e67042;
